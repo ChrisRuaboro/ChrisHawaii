@@ -1,0 +1,56 @@
+.background-darkgray {
+    background-color: darkslategray;
+}
+.background-default {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-kauai {
+    background-image: url(https://wallpaperaccess.com/full/676283.jpg);
+    height: 100vh;
+}
+.bgkauai-hanalei {
+    position: relative;
+    background-image: url(https://wallpapercave.com/wp/wp4580520.jpg);
+    min-height: 400px;
+}
+.bgkauai-napalilong {
+    position: relative;
+    background-image: url(https://r1.ilikewallpaper.net/iphone-x-wallpapers/download/75121/Jurrasic-Park-iphone-x-wallpaper-ilikewallpaper_com.jpg);
+    height: 60vh;
+}
+
+div.transbox {
+    background-color: #ffffff;
+    opacity: 1.0;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #fff;
+    border-radius: 50px;
+    opacity: 90%;
+    color: #111;
+    padding: 25px;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+
+.whitebox 
+{
+    color: rgb(5, 5, 5);
+    background-color:white;
+    text-align:center;
+    padding:50px 80px;
+    text-align: justify;
+}
