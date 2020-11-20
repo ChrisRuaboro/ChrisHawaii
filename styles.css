@@ -27,6 +27,19 @@ div.transbox {
     opacity: 1.0;
 }
 
+.transparent-9 {
+    opacity: 0.95;
+}
+.transparent-6 {
+    opacity: 0.6;
+}
+
+.navbar-rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .caption {
     position: absolute;
     left: 0;
