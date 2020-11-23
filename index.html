@@ -27,19 +27,23 @@
                     <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#aboutmyself">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Project</a>
+                    <a class="nav-link" href="#hobbies">Hobbies</a>
                 </li>
             </ul>
         </div>
     </nav>
-
+    
+    
     <div class="background-default background-kauai transbox">
         <div class="caption">
             <span class="border">Welcome to my site! &#x1F919</span>
         </div>
+        <iframe style="position: absolute; left: 0;
+        top: 60%;
+        width: 25%; margin: 0% 37%;" height="80px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/108456959&color=%23f2d670&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     </div>
     <div class="whitebox">
         <h3 style="text-align:center;">Chris is cool filler text.</h3>
@@ -53,14 +57,14 @@
             mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante
             augue etiam maecenas, porta porttitor placerat leo.</p>
     </div>
-    <div class="background-default bgkauai-hanalei">
+    <div class="background-default bgkauai-hanalei" id="aboutmyself">
         <div class="caption">
             <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">About Myself</span>
         </div>
     </div>
-    <div class="whitebox">
-        <h3 style="text-align:center;">Chris is cool filler text.</h3>
-        <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the
+    <div class="whitebox" style="padding: 11% 2% 11% 2%;">
+        <h3 style="text-align:center; margin-bottom: 100px; background-color: white; opacity: 70%;">Chris is cool filler text.</h3>
+        <p style="background-color: white; opacity: 70%;">Parallax scrolling is a web site trend where the background content is moved at a different speed than the
             foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed
             posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit
             dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur
@@ -71,7 +75,7 @@
             augue etiam maecenas, porta porttitor placerat leo.</p>
     </div>
     <div class="background-default bgkauai-napalilong"
-        style="display: flex; justify-content: space-evenly; align-items: center; padding-left: 15%; padding-right: 15%;">
+        style="display: flex; justify-content: space-evenly; align-items: center; padding-left: 15%; padding-right: 15%;" id="hobbies">
         <span style="text-align: left; background-color: transparent; color: white; margin: 0% 5% 0% 5%;">
             <h1>Hello World</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, repudiandae? Laborum officia commodi
@@ -82,10 +86,19 @@
             <img src="Images/ChrisCamel.jpg" alt="ChrisCamel" style="border-radius: 50px; min-height: 150%; width: 150%;">
         </span>
     </div>
-    <div class="my-pictures">
-        <img class="img-normal" src="Images/IMG_9081-2.jpg" alt="Amazon Military">
-        <img class="img-normal" src="Images/IMG_8939.jpg" alt="Hanalei Sunset">
-        <img class="img-normal" src="Images/IMG_9276.jpg" alt="Selfie Hanalei">
+    <div style="display: flex; justify-content: space-between; align-content: flex-end; background-color: #01172f;">
+        <div class="container">
+            <img class="image" src="Images/IMG_9081-2.jpg" alt="Amazon Military">
+            <div class="middle text">Amazon Military</div>
+        </div>
+        <div class="container">
+            <img class="image" style="height: 100%;" src="Images/IMG_8939.jpg" alt="Hanalei Sunset">
+            <div class="middle text">Hanalei Sunset</div>
+        </div>
+        <div class="container">
+            <img class="image" src="Images/IMG_9276.jpg" alt="Sunhat Chris">
+            <div class="middle text">Sunhat Chris</div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
