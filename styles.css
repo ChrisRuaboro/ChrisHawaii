@@ -19,6 +19,8 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: auto;
 }
 .background-kauai {
     background-image: url(https://wallpaperaccess.com/full/676283.jpg);
