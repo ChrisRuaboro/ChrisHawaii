@@ -16,11 +16,9 @@ html {
 }
 .background-default {
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: auto;
 }
 .background-kauai {
     background-image: url(https://wallpaperaccess.com/full/676283.jpg);
